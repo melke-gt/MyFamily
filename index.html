@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>የቤተሰብ አባላት - የግርማ እና የገነት ቤተሰብ</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-content">
+    <h1><i class="fas fa-home"></i> የግርማ እና የገነት ቤተሰብ</h1>
+    <p class="family-subtitle">ሰላም እና ፍቅር የሚገኝበት ቤተሰብ</p>
+    
+    <div class="top-banner">
+      <img src="images/family1.jpg" alt="Family Group Photo" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1511988617509-a57c8a288659?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'">
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="family-stats">
+    <div class="stat-box">
+      <i class="fas fa-user-friends"></i>
+      <span class="stat-number">2</span>
+      <span class="stat-label">ወላጅ</span>
+    </div>
+    <div class="stat-box">
+      <i class="fas fa-heart"></i>
+      <span class="stat-number">7</span>
+      <span class="stat-label">ልጆች</span>
+    </div>
+    <div class="stat-box">
+      <i class="fas fa-baby"></i>
+      <span class="stat-number">2</span>
+      <span class="stat-label">የልጅ ልጆች</span>
+    </div>
+    <div class="stat-box">
+      <i class="fas fa-users"></i>
+      <span class="stat-number">11</span>
+      <span class="stat-label">አጠቃላይ አባላት</span>
+    </div>
+  </div>
+
+  <h2 class="section-title"><i class="fas fa-heart"></i> እናት እና አባት</h2>
+  
+  <div class="parents-container">
+    <div class="parent-card" onclick="toggleDetails(this)">
+      <div class="parent-header">
+        <img src="images/girma.jpg" alt="Parent 1" class="parent-img" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1582750433449-648ed127bb54?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80'">
+        <h3 class="member-name">ግርማ ተክሌ ወ/ዮሐንስ</h3>
+        <p class="member-role"><i class="fas fa-male"></i> አባት</p>
+      </div>
+      <div class="details">
+        <div class="details-grid">
+          <div class="detail-item">
+            <span class="detail-label">ጾታ</span>
+            <span class="detail-value">ወንድ</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">የልደት ቀን</span>
+            <span class="detail-value">ታህሳስ 12/1956</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">የተወለዱበት ቦታ</span>
+            <span class="detail-value">አራጣ ጩፋ/ዝዋይ ዱግዳዓ</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">የክርስትና ስም</span>
+            <span class="detail-value">----</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="parent-card" onclick="toggleDetails(this)">
+      <div class="parent-header">
+        <img src="images/genet.jpg" alt="Parent 2" class="parent-img" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80'">
+        <h3 class="member-name">ገነት ጎሳዬ ብሩ</h3>
+        <p class="member-role"><i class="fas fa-female"></i> እናት</p>
+      </div>
+      <div class="details">
+        <div class="details-grid">
+          <div class="detail-item">
+            <span class="detail-label">ጾታ</span>
+            <span class="detail-value">ሴት</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">የልደት ቀን</span>
+            <span class="detail-value">ጥር 21/1962</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">የተወለዱበት ቦታ</span>
+            <span class="detail-value">አራጣ ጩፋ/ዝዋይ ዱግዳዓ</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">የክርስትና ስም</span>
+            <span class="detail-value">----</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2 class="section-title"><i class="fas fa-child"></i> ልጆች</h2>
+  
+  <div class="members-grid">
+    <!-- First Child -->
+    <div class="member-card" onclick="toggleDetails(this)">
+      <div class="member-header">
+        <img src="images/hiwot.jpg" alt="First Child" class="member-img" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80'">
+        <div>
+          <h3 class="member-name">ህይወት ግርማ ተክሌ</h3>
+          <p class="member-role"><i class="fas fa-star"></i> የመጀመሪያ ልጅ</p>
+        </div>
+      </div>
+      <div class="details">
+        <div class="details-grid">
+          <div class="detail-item">
+            <span class="detail-label">ጾታ</span>
+            <span class="detail-value">ሴት</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">የልደት ቀን</span>
+            <span class="detail-value">00/00/1981</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">የተወለዱበት ቦታ</span>
+            <span class="detail-value">በቆጂ</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">የክርስትና ስም</span>
+            <span class="detail-value">----</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">አባት</span>
+            <span class="detail-value">ግርማ ተክሌ</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">እናት</span>
+            <span class="detail-value">ገነት ጎሳዬ</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Second Child -->
+    <div class="member-card" onclick="toggleDetails(this)">
+      <div class="member-header">
+        <img src="images/biruke.jpg" alt="Second Child" class="member-img" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80'">
+        <div>
+          <h3 class="member-name">ብሩክ ግርማ ተክሌ</h3>
+          <p class="member-role"><i class="fas fa-star"></i> ሁለተኛ ልጅ</p>
+        </div>
+      </div>
+      <div class="details">
+        <div class="details-grid">
+          <div class="detail-item">
+            <span class="detail-label">ጾታ</span>
+            <span class="detail-value">ወንድ</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">የልደት ቀን</span>
+            <span class="detail-value">ጥር 21/1981</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">የተወለዱበት ቦታ</span>
+            <span class="detail-value">በቆጂ</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">የክርስትና ስም</span>
+            <span class="detail-value">----</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">አባት</span>
+            <span class="detail-value">ግርማ ተክሌ</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">እናት</span>
+            <span class="detail-value">ገነት ጎሳዬ</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Third Child -->
+    <div class="member-card" onclick="toggleDetails(this)">
+      <div class="member-header">
+        <img src="images/mele.jpg" alt="Third Child" class="member-img" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80'">
+        <div>
+          <h3 class="member-name">መላኩ ግርማ ተክሌ</h3>
+          <p class="member-role"><i class="fas fa-star"></i> ሶስተኛ ልጅ</p>
+        </div>
+      </div>
+      <div class="details">
+        <div class="details-grid">
+          <div class="detail-item">
+            <span class="detail-label">ጾታ</span>
+            <span class="detail-value">ወንድ</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">የልደት ቀን</span>
+            <span class="detail-value">ታህሳስ 24/1986</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">የተወለዱበት ቦታ</span>
+            <span class="detail-value">አራጣ</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">የክርስትና ስም</span>
+            <span class="detail-value">----</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">አባት</span>
+            <span class="detail-value">ግርማ ተክሌ</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">እናት</span>
+            <span class="detail-value">ገነት ጎሳዬ</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fourth Child -->
+    <div class="member-card" onclick="toggleDetails(this)">
+      <div class="member-header">
+        <img src="images/melkamu.jpg" alt="Fourth Child" class="member-img" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80'">
+        <div>
+          <h3 class="member-name">መልካሙ ግርማ ተክሌ</h3>
+          <p class="member-role"><i class="fas fa-star"></i> አራተኛ ልጅ</p>
+        </div>
+      </div>
+      <div class="details">
+        <div class="details-grid">
+          <div class="detail-item">
+            <span class="detail-label">ጾታ</span>
+            <span class="detail-value">ወንድ</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">የልደት ቀን</span>
+            <span class="detail-value">መጋቢት 23/1990</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">የተወለዱበት ቦታ</span>
+            <span class="detail-value">አራጣ</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">የክርስትና ስም</span>
+            <span class="detail-value">ወልደ አብ</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">አባት</span>
+            <span class="detail-value">ግርማ ተክሌ</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">እናት</span>
+            <span class="detail-value">ገነት ጎሳዬ</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fifth Child -->
+    <div class="member-card" onclick="toggleDetails(this)">
+      <div class="member-header">
+        <img src="images/addis.jpg" alt="Fifth Child" class="member-img" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80'">
+        <div>
+          <h3 class="member-name">አዲስዓለም ግርማ ተክሌ</h3>
+          <p class="member-role"><i class="fas fa-star"></i> አምስተኛ ልጅ</p>
+        </div>
+      </div>
+      <div class="details">
+        <div class="details-grid">
+          <div class="detail-item">
+            <span class="detail-label">ጾታ</span>
+            <span class="detail-value">ሴት</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">የልደት ቀን</span>
+            <span class="detail-value">መስከረም 03/1993</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">የተወለዱበት ቦታ</span>
+            <span class="detail-value">አራጣ</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">የክርስትና ስም</span>
+            <span class="detail-value">----</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">አባት</span>
+            <span class="detail-value">ግርማ ተክሌ</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">እናት</span>
+            <span class="detail-value">ገነት ጎሳዬ</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sixth Child -->
+    <div class="member-card" onclick="toggleDetails(this)">
+      <div class="member-header">
+        <img src="images/beki.jpg" alt="Sixth Child" class="member-img" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1507591064344-4c6ce005-128b-97db9b2f2d7e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80'">
+        <div>
+          <h3 class="member-name">በረከት ግርማ ተክሌ</h3>
+          <p class="member-role"><i class="fas fa-star"></i> ስድስተኛ ልጅ</p>
+        </div>
+      </div>
+      <div class="details">
+        <div class="details-grid">
+          <div class="detail-item">
+            <span class="detail-label">ጾታ</span>
+            <span class="detail-value">ወንድ</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">የልደት ቀን</span>
+            <span class="detail-value">ነሐሴ 20/1995</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">የተወለዱበት ቦታ</span>
+            <span class="detail-value">አራጣ</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">የክርስትና ስም</span>
+            <span class="detail-value">----</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">አባት</span>
+            <span class="detail-value">ግርማ ተክሌ</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">እናት</span>
+            <span class="detail-value">ገነት ጎሳዬ</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Seventh Child -->
+    <div class="member-card" onclick="toggleDetails(this)">
+      <div class="member-header">
+        <img src="images/abel.jpg" alt="Seventh Child" class="member-img" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80'">
+        <div>
+          <h3 class="member-name">አቤል ግርማ ተክሌ</h3>
+          <p class="member-role"><i class="fas fa-star"></i> ሰባተኛ ልጅ</p>
+        </div>
+      </div>
+      <div class="details">
+        <div class="details-grid">
+          <div class="detail-item">
+            <span class="detail-label">ጾታ</span>
+            <span class="detail-value">ወንድ</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">የልደት ቀን</span>
+            <span class="detail-value">መስከረም 10/2000</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">የተወለዱበት ቦታ</span>
+            <span class="detail-value">አሰላ</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">የክርስትና ስም</span>
+            <span class="detail-value">----</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">አባት</span>
+            <span class="detail-value">ግርማ ተክሌ</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">እናት</span>
+            <span class="detail-value">ገነት ጎሳዬ</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2 class="section-title"><i class="fas fa-baby"></i> የልጅ ልጆች</h2>
+  
+  <div class="members-grid">
+    <!-- First Grandchild -->
+    <div class="member-card" onclick="toggleDetails(this)">
+      <div class="member-header">
+        <img src="images/enu.jpg" alt="Grandchild One" class="member-img" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80'">
+        <div>
+          <h3 class="member-name">ፌቨን ሀብታሙ ደሱሌ</h3>
+          <p class="member-role"><i class="fas fa-heart"></i> የልጅ ልጅ</p>
+        </div>
+      </div>
+      <div class="details">
+        <div class="details-grid">
+          <div class="detail-item">
+            <span class="detail-label">ጾታ</span>
+            <span class="detail-value">ሴት</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">የልደት ቀን</span>
+            <span class="detail-value">ሰኔ 1/2004</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">የተወለዱበት ቦታ</span>
+            <span class="detail-value">አሰላ</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">የክርስትና ስም</span>
+            <span class="detail-value">----</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">አባት</span>
+            <span class="detail-value">ሀብታሙ ደሱሌ</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">እናት</span>
+            <span class="detail-value">ህይወት ግርማ</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Second Grandchild -->
+    <div class="member-card" onclick="toggleDetails(this)">
+      <div class="member-header">
+        <img src="images/abenezer.jpg" alt="Grandchild Two" class="member-img" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1503443207922-dff7d543fd0e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80'">
+        <div>
+          <h3 class="member-name">አቤነዘር ሀብታሙ ደሱሌ</h3>
+          <p class="member-role"><i class="fas fa-heart"></i> የልጅ ልጅ</p>
+        </div>
+      </div>
+      <div class="details">
+        <div class="details-grid">
+          <div class="detail-item">
+            <span class="detail-label">ጾታ</span>
+            <span class="detail-value">ወንድ</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">የልደት ቀን</span>
+            <span class="detail-value">ጳጉሜ 1/2013</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">የተወለዱበት ቦታ</span>
+            <span class="detail-value">አሰላ</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">የክርስትና ስም</span>
+            <span class="detail-value">----</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">አባት</span>
+            <span class="detail-value">ሀብታሙ ደሱሌ</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">እናት</span>
+            <span class="detail-value">ህይወት ግርማ</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <p>የግርማ እና የገነት ቤተሰብ - በፍቅር የተተማማነ</p>
+    <p>© 2023 የቤተሰብ አባላት ዝርዝር. አዘጋጅ መልካሙ ግርማ.</p>
+    <a href="#" class="family-tree-link"><i class="fas fa-sitemap"></i> የቤተሰብ ዛፍ ይመልከቱ</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
